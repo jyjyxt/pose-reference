@@ -1,0 +1,375 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pose-skills.local/pose.schema.json",
+  "title": "Pose catalogue",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/pose"
+  },
+  "$defs": {
+    "view": {
+      "type": "object",
+      "required": [
+        "id",
+        "angle",
+        "image"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "angle": {
+          "type": "string",
+          "enum": [
+            "front",
+            "side",
+            "diagonal",
+            "high",
+            "low",
+            "back",
+            "other"
+          ]
+        },
+        "angle_label": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "source_image": {
+          "type": "string"
+        },
+        "keypoints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "x",
+              "y"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "x": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "y": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "visibility": {
+                "type": "string",
+                "enum": [
+                  "visible",
+                  "occluded",
+                  "unknown"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "phase": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "views"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "views": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/view"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "pose": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "category",
+        "domains",
+        "tags",
+        "people",
+        "framing",
+        "content_rating",
+        "source_id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_-]*:[A-Za-z0-9][A-Za-z0-9_-]*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "pose",
+            "movement"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_-]*$"
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "people": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "framing": {
+          "type": "string",
+          "enum": [
+            "full_body",
+            "upper_body",
+            "mixed",
+            "other"
+          ]
+        },
+        "content_rating": {
+          "type": "string",
+          "enum": [
+            "general",
+            "adult",
+            "unknown"
+          ]
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced",
+            "unknown"
+          ]
+        },
+        "props": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "views": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/view"
+          }
+        },
+        "phases": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/phase"
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "properties": {
+            "fitness": {
+              "type": "object",
+              "properties": {
+                "target_muscles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "equipment": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "common_errors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "instructions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "additionalProperties": false
+            },
+            "sports": {
+              "type": "object",
+              "properties": {
+                "sport": {
+                  "type": "string"
+                },
+                "technique": {
+                  "type": "string"
+                },
+                "instructions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "common_errors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "additionalProperties": false
+            },
+            "yoga": {
+              "type": "object",
+              "properties": {
+                "instructions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "props": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "common_errors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "pose"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "views"
+            ],
+            "not": {
+              "required": [
+                "phases"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "movement"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "phases"
+            ],
+            "not": {
+              "required": [
+                "views"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
