@@ -16,7 +16,7 @@ Select according to the user's purpose:
 - Photo or social-media ideas: prioritize natural poses that match the user's requested setting and body framing.
 - Portrait, selfie or expression sheet: prioritize upper-body and hand gestures; don't force full-body framing.
 - Drawing, character design or AI-image reference: prioritize clear silhouettes and requested body positions or angles.
-- Specific pose, ID, or previously presented action number: honor that choice. A number only means the numbered list already shown in this conversation; never silently reinterpret it as a catalogue ID or a new list index.
+- Specific pose, ID, or previously presented action number: honor that choice. `KF` numbers such as `KF001` are permanent kungfu catalogue numbers, listed in `categories/kungfu/numbered-poses.md`; resolve them by exact tag using `python3 <repository>/shared/scripts/search.py --category kungfu --query KF001 --distinct --limit 1` and pass the returned action ID to the selector. Check the returned tags contain the exact number. An unqualified list number refers only to a numbered list already shown in this conversation; never silently reinterpret it as a catalogue ID or a new list index.
 - Two-person or intimate poses: the existing pair section is adult-oriented, and one portrait does not identify a second person. Do not invent a partner or treat the pair section as a general couple-posing library. Ask for the missing person or intended partner description when required and comply with the applicable image tool's content rules.
 
 ## Choose poses

@@ -19,6 +19,69 @@
 - `categories/fitness`、`categories/sports`、`categories/yoga`：已建立数据结构，**目前没有动作素材或教学数据**。不能将通用参考图库当作训练动作标准。
 - 教学和训练建议需要合适的可靠来源；图片生成需要 Agent 环境提供支持参考图的生成工具。
 
+## 安装与依赖
+
+完整流程需要：
+
+- **Git**：获取项目。
+- **Python 3.9 或更高版本**：运行动作搜索和拼图脚本，无需额外安装 Python 包。
+- **FFmpeg 和 ffprobe**：生成动作参考拼图；两个命令通常由同一个 FFmpeg 软件包提供。
+- **支持参考图的图像生成工具**：由所用 Agent 环境提供，并能接收人物图和动作参考图。项目脚本负责搜索和整理参考图，最终图片由图像生成工具生成。
+- **cwebp**：仅在将新增图片压缩到项目时需要，普通搜索和生成不需要。
+
+例如，在 macOS 上使用 Homebrew 安装依赖：
+
+```bash
+brew install git python ffmpeg webp
+```
+
+在 Debian / Ubuntu 上可使用：
+
+```bash
+sudo apt update
+sudo apt install git python3 ffmpeg webp
+```
+
+克隆完整仓库，并将根 Skill 链接到常见的 Agent Skills 目录：
+
+```bash
+git clone https://github.com/jyjyxt/pose-reference.git
+cd pose-reference
+mkdir -p ~/.agents/skills
+ln -s "$(pwd)" ~/.agents/skills/pose-skills
+```
+
+保留克隆目录，链接依赖其中的 `skills/`、`shared/` 和 `categories/`；若目标链接已存在，先确认其指向，避免覆盖。不同 Agent 的技能目录和发现方式可能不同；如未自动发现，可在对话中要求 Agent 读取本仓库的 `SKILL.md` 或 `skills/pose-transfer/SKILL.md`。安装后按 Agent 的要求重新加载技能或重启会话。
+
+## 从人物图生成九宫格
+
+1. **准备人物参考图。** 提供一张人物照片或其本地路径。图像生成工具需要能读取此图和项目动作图；也可以用仓库内的 `examples/reference/fashion-portrait.webp` 体验。
+2. **选择动作。** 查看 [功夫动作编号](categories/kungfu/numbered-poses.md)，或者让 Agent 自动选九个。也可在仓库根目录搜索编号：
+
+   ```bash
+   python3 shared/scripts/search.py --category kungfu --query KF001
+   ```
+
+3. **告诉 Agent 生成要求。** 在支持图像生成的 Agent 中，提供人物图并发送，例如：
+
+   > 使用 pose-transfer，把 `examples/reference/fashion-portrait.webp` 中的人物生成一张功夫九宫格，依次使用 KF012、KF001、KF004、KF005、KF009、KF011、KF010、KF023、KF026；保持人物、服装和场景一致。
+
+   Agent 应读取 `pose-transfer` 技能，按编号找到动作参考，结合人物图一次生成一张 3×3 图片。未指定动作时可让 Agent 选择；未指定数量时该技能默认生成五个动作，最多九个。要求九宫格时应明确写九个。
+
+4. **查看并保存结果。** 确认九个格子和所选动作相符，并按所用图像工具的方式保存生成图片。不同视角和动作是模型生成的近似结果，人物一致性和动作准确性不保证完全相同。
+
+如果想手动准备同一组动作参考拼图，在仓库根目录运行以下命令；输出路径必须是不存在的新文件：
+
+```bash
+python3 skills/pose-transfer/scripts/build_pose_sheet.py \
+  --output /tmp/kungfu-nine-reference.png \
+  --id kungfu:guard-stance --id kungfu:oi-zuki --id kungfu:age-uke \
+  --id kungfu:soto-uke --id kungfu:mae-geri --id kungfu:yoko-geri \
+  --id kungfu:mawashi-geri --id kungfu:knee-strike --id kungfu:wide-stance
+```
+
+脚本输出拼图路径及格子与动作 ID 的对应关系。`--id` 接受动作 ID 或视角 ID，按传入顺序排列；编号和动作 ID 的对应关系见编号表。将这张拼图与人物图交给支持参考图的图像生成工具，才能生成最终人物图片。
+
 ## 示例：一张人物照生成九宫格
 
 | 人物参考 | 动作参考 | 生成结果 |
@@ -26,6 +89,14 @@
 | ![人物参考照](examples/reference/fashion-portrait.webp) | ![九个动作参考](examples/reference/pose-reference-grid-latest.webp) | ![九宫格生成结果](examples/reference/pose-transfer-demo-latest.webp) |
 
 示例人物及结果由 AI 生成。单次生成可改善一致性，但不保证人物和动作完全一致。
+
+### 功夫动作九宫格
+
+| 人物参考 | 动作参考 | 生成结果 |
+| --- | --- | --- |
+| ![人物参考照](examples/reference/fashion-portrait.webp) | ![九个功夫动作参考](examples/reference/kungfu-nine-reference.webp) | ![功夫动作九宫格](examples/reference/kungfu-nine-poses.webp) |
+
+动作按从左到右、从上到下排列：KF012 防守架势、KF001 追步直拳、KF004 上段格挡、KF005 外格挡、KF009 前踢、KF011 侧踢、KF010 回旋踢、KF023 提膝击、KF026 宽马步。示例人物和结果由 AI 生成，动作图用于姿势参考，不作为动作教学标准。
 
 ## 命令
 
