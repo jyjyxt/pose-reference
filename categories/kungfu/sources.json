@@ -1,0 +1,10 @@
+{
+  "user-karate": {
+    "description": "基于用户提供的空手道动作参考图生成；原作者与原图使用授权未知。",
+    "url": "categories/kungfu/source.md"
+  },
+  "user-taekwondo": {
+    "description": "基于用户提供的跆拳道动作参考图生成；原作者与原图使用授权未知。",
+    "url": "categories/kungfu/source.md"
+  }
+}

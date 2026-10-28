@@ -15,6 +15,7 @@
 [根目录 SKILL.md](SKILL.md) 是分流入口。要保留完整仓库目录才能共享数据和脚本；单独复制一个子 Skill 不包含其依赖。是否自动发现嵌套 Skill 取决于 Agent 环境，可直接指定对应的 `SKILL.md` 或从根入口路由。
 
 - `categories/reference`：现有ギア姿势图库，包括静态线稿及多个视角；部分内容为成人向，默认不显示。
+- `categories/kungfu`：独立的功夫动作分类，含 AI 生成的空手道和跆拳道姿势参考；原参考图来源及授权信息见分类内的 `source.md`。
 - `categories/fitness`、`categories/sports`、`categories/yoga`：已建立数据结构，**目前没有动作素材或教学数据**。不能将通用参考图库当作训练动作标准。
 - 教学和训练建议需要合适的可靠来源；图片生成需要 Agent 环境提供支持参考图的生成工具。
 

@@ -1,0 +1,1608 @@
+[
+  {
+    "id": "kungfu:oi-zuki",
+    "name": "追步直拳",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "oi-zuki",
+      "KF001"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:oi-zuki:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/oi-zuki-front.webp"
+      },
+      {
+        "id": "kungfu:oi-zuki:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/oi-zuki-side.webp"
+      },
+      {
+        "id": "kungfu:oi-zuki:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/oi-zuki-diag.webp"
+      },
+      {
+        "id": "kungfu:oi-zuki:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/oi-zuki-high.webp"
+      },
+      {
+        "id": "kungfu:oi-zuki:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/oi-zuki-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:gyaku-zuki",
+    "name": "逆直拳",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "gyaku-zuki",
+      "KF002"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:gyaku-zuki:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/gyaku-zuki-front.webp"
+      },
+      {
+        "id": "kungfu:gyaku-zuki:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/gyaku-zuki-side.webp"
+      },
+      {
+        "id": "kungfu:gyaku-zuki:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/gyaku-zuki-diag.webp"
+      },
+      {
+        "id": "kungfu:gyaku-zuki:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/gyaku-zuki-high.webp"
+      },
+      {
+        "id": "kungfu:gyaku-zuki:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/gyaku-zuki-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:kizami-zuki",
+    "name": "前手直拳",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "kizami-zuki",
+      "KF003"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:kizami-zuki:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/kizami-zuki-front.webp"
+      },
+      {
+        "id": "kungfu:kizami-zuki:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/kizami-zuki-side.webp"
+      },
+      {
+        "id": "kungfu:kizami-zuki:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/kizami-zuki-diag.webp"
+      },
+      {
+        "id": "kungfu:kizami-zuki:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/kizami-zuki-high.webp"
+      },
+      {
+        "id": "kungfu:kizami-zuki:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/kizami-zuki-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:age-uke",
+    "name": "上段格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "age-uke",
+      "KF004"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:age-uke:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/age-uke-front.webp"
+      },
+      {
+        "id": "kungfu:age-uke:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/age-uke-side.webp"
+      },
+      {
+        "id": "kungfu:age-uke:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/age-uke-diag.webp"
+      },
+      {
+        "id": "kungfu:age-uke:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/age-uke-high.webp"
+      },
+      {
+        "id": "kungfu:age-uke:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/age-uke-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:soto-uke",
+    "name": "外格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "soto-uke",
+      "KF005"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:soto-uke:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/soto-uke-front.webp"
+      },
+      {
+        "id": "kungfu:soto-uke:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/soto-uke-side.webp"
+      },
+      {
+        "id": "kungfu:soto-uke:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/soto-uke-diag.webp"
+      },
+      {
+        "id": "kungfu:soto-uke:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/soto-uke-high.webp"
+      },
+      {
+        "id": "kungfu:soto-uke:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/soto-uke-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:uchi-uke",
+    "name": "内格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "uchi-uke",
+      "KF006"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:uchi-uke:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/uchi-uke-front.webp"
+      },
+      {
+        "id": "kungfu:uchi-uke:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/uchi-uke-side.webp"
+      },
+      {
+        "id": "kungfu:uchi-uke:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/uchi-uke-diag.webp"
+      },
+      {
+        "id": "kungfu:uchi-uke:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/uchi-uke-high.webp"
+      },
+      {
+        "id": "kungfu:uchi-uke:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/uchi-uke-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:guedan-barai",
+    "name": "下段扫挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "guedan-barai",
+      "KF007"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:guedan-barai:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/guedan-barai-front.webp"
+      },
+      {
+        "id": "kungfu:guedan-barai:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/guedan-barai-side.webp"
+      },
+      {
+        "id": "kungfu:guedan-barai:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/guedan-barai-diag.webp"
+      },
+      {
+        "id": "kungfu:guedan-barai:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/guedan-barai-high.webp"
+      },
+      {
+        "id": "kungfu:guedan-barai:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/guedan-barai-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:shuto-uke",
+    "name": "手刀格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "shuto-uke",
+      "KF008"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:shuto-uke:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/shuto-uke-front.webp"
+      },
+      {
+        "id": "kungfu:shuto-uke:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/shuto-uke-side.webp"
+      },
+      {
+        "id": "kungfu:shuto-uke:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/shuto-uke-diag.webp"
+      },
+      {
+        "id": "kungfu:shuto-uke:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/shuto-uke-high.webp"
+      },
+      {
+        "id": "kungfu:shuto-uke:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/shuto-uke-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:mae-geri",
+    "name": "前踢",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "mae-geri",
+      "KF009"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:mae-geri:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/mae-geri-front.webp"
+      },
+      {
+        "id": "kungfu:mae-geri:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/mae-geri-side.webp"
+      },
+      {
+        "id": "kungfu:mae-geri:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/mae-geri-diag.webp"
+      },
+      {
+        "id": "kungfu:mae-geri:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/mae-geri-high.webp"
+      },
+      {
+        "id": "kungfu:mae-geri:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/mae-geri-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:mawashi-geri",
+    "name": "回旋踢",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "mawashi-geri",
+      "KF010"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:mawashi-geri:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/mawashi-geri-front.webp"
+      },
+      {
+        "id": "kungfu:mawashi-geri:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/mawashi-geri-side.webp"
+      },
+      {
+        "id": "kungfu:mawashi-geri:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/mawashi-geri-diag.webp"
+      },
+      {
+        "id": "kungfu:mawashi-geri:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/mawashi-geri-high.webp"
+      },
+      {
+        "id": "kungfu:mawashi-geri:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/mawashi-geri-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:yoko-geri",
+    "name": "侧踢",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "空手道",
+      "yoko-geri",
+      "KF011"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-karate",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:yoko-geri:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/yoko-geri-front.webp"
+      },
+      {
+        "id": "kungfu:yoko-geri:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/yoko-geri-side.webp"
+      },
+      {
+        "id": "kungfu:yoko-geri:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/yoko-geri-diag.webp"
+      },
+      {
+        "id": "kungfu:yoko-geri:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/yoko-geri-high.webp"
+      },
+      {
+        "id": "kungfu:yoko-geri:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/yoko-geri-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:guard-stance",
+    "name": "防守架势",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "guard-stance",
+      "KF012"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:guard-stance:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/guard-stance-front.webp"
+      },
+      {
+        "id": "kungfu:guard-stance:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/guard-stance-side.webp"
+      },
+      {
+        "id": "kungfu:guard-stance:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/guard-stance-diag.webp"
+      },
+      {
+        "id": "kungfu:guard-stance:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/guard-stance-high.webp"
+      },
+      {
+        "id": "kungfu:guard-stance:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/guard-stance-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:middle-block",
+    "name": "中段格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "middle-block",
+      "KF013"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:middle-block:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/middle-block-front.webp"
+      },
+      {
+        "id": "kungfu:middle-block:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/middle-block-side.webp"
+      },
+      {
+        "id": "kungfu:middle-block:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/middle-block-diag.webp"
+      },
+      {
+        "id": "kungfu:middle-block:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/middle-block-high.webp"
+      },
+      {
+        "id": "kungfu:middle-block:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/middle-block-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:low-block-chamber",
+    "name": "下段格挡蓄势",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "low-block-chamber",
+      "KF014"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:low-block-chamber:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/low-block-chamber-side.webp"
+      },
+      {
+        "id": "kungfu:low-block-chamber:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/low-block-chamber-diag.webp"
+      },
+      {
+        "id": "kungfu:low-block-chamber:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/low-block-chamber-high.webp"
+      },
+      {
+        "id": "kungfu:low-block-chamber:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/low-block-chamber-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:circular-block-guard",
+    "name": "环形格挡护架",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "circular-block-guard",
+      "KF015"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:circular-block-guard:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/circular-block-guard-front.webp"
+      },
+      {
+        "id": "kungfu:circular-block-guard:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/circular-block-guard-side.webp"
+      },
+      {
+        "id": "kungfu:circular-block-guard:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/circular-block-guard-diag.webp"
+      },
+      {
+        "id": "kungfu:circular-block-guard:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/circular-block-guard-high.webp"
+      },
+      {
+        "id": "kungfu:circular-block-guard:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/circular-block-guard-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:double-block",
+    "name": "双手格挡",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "double-block",
+      "KF016"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:double-block:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/double-block-front.webp"
+      },
+      {
+        "id": "kungfu:double-block:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/double-block-side.webp"
+      },
+      {
+        "id": "kungfu:double-block:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/double-block-diag.webp"
+      },
+      {
+        "id": "kungfu:double-block:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/double-block-high.webp"
+      },
+      {
+        "id": "kungfu:double-block:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/double-block-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:backfist-strike",
+    "name": "反拳击打",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "backfist-strike",
+      "KF017"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:backfist-strike:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/backfist-strike-front.webp"
+      },
+      {
+        "id": "kungfu:backfist-strike:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/backfist-strike-side.webp"
+      },
+      {
+        "id": "kungfu:backfist-strike:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/backfist-strike-diag.webp"
+      },
+      {
+        "id": "kungfu:backfist-strike:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/backfist-strike-high.webp"
+      },
+      {
+        "id": "kungfu:backfist-strike:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/backfist-strike-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:back-kick",
+    "name": "后踢",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "back-kick",
+      "KF018"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:back-kick:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/back-kick-front.webp"
+      },
+      {
+        "id": "kungfu:back-kick:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/back-kick-side.webp"
+      },
+      {
+        "id": "kungfu:back-kick:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/back-kick-diag.webp"
+      },
+      {
+        "id": "kungfu:back-kick:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/back-kick-high.webp"
+      },
+      {
+        "id": "kungfu:back-kick:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/back-kick-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:jumping-kick",
+    "name": "跳踢",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "jumping-kick",
+      "KF019"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:jumping-kick:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/jumping-kick-front.webp"
+      },
+      {
+        "id": "kungfu:jumping-kick:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/jumping-kick-side.webp"
+      },
+      {
+        "id": "kungfu:jumping-kick:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/jumping-kick-diag.webp"
+      },
+      {
+        "id": "kungfu:jumping-kick:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/jumping-kick-high.webp"
+      },
+      {
+        "id": "kungfu:jumping-kick:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/jumping-kick-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:spinning-kick-chamber",
+    "name": "旋踢收腿姿态",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "spinning-kick-chamber",
+      "KF020"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:spinning-kick-chamber:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/spinning-kick-chamber-front.webp"
+      },
+      {
+        "id": "kungfu:spinning-kick-chamber:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/spinning-kick-chamber-side.webp"
+      },
+      {
+        "id": "kungfu:spinning-kick-chamber:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/spinning-kick-chamber-diag.webp"
+      },
+      {
+        "id": "kungfu:spinning-kick-chamber:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/spinning-kick-chamber-high.webp"
+      },
+      {
+        "id": "kungfu:spinning-kick-chamber:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/spinning-kick-chamber-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:low-sweep",
+    "name": "低位扫腿",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "low-sweep",
+      "KF021"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:low-sweep:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/low-sweep-front.webp"
+      },
+      {
+        "id": "kungfu:low-sweep:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/low-sweep-side.webp"
+      },
+      {
+        "id": "kungfu:low-sweep:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/low-sweep-diag.webp"
+      },
+      {
+        "id": "kungfu:low-sweep:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/low-sweep-high.webp"
+      },
+      {
+        "id": "kungfu:low-sweep:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/low-sweep-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:axe-kick",
+    "name": "下劈踢抬腿姿态",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "axe-kick",
+      "KF022"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:axe-kick:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/axe-kick-front.webp"
+      },
+      {
+        "id": "kungfu:axe-kick:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/axe-kick-side.webp"
+      },
+      {
+        "id": "kungfu:axe-kick:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/axe-kick-diag.webp"
+      },
+      {
+        "id": "kungfu:axe-kick:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/axe-kick-high.webp"
+      },
+      {
+        "id": "kungfu:axe-kick:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/axe-kick-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:knee-strike",
+    "name": "提膝击",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "knee-strike",
+      "KF023"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:knee-strike:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/knee-strike-front.webp"
+      },
+      {
+        "id": "kungfu:knee-strike:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/knee-strike-side.webp"
+      },
+      {
+        "id": "kungfu:knee-strike:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/knee-strike-diag.webp"
+      },
+      {
+        "id": "kungfu:knee-strike:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/knee-strike-high.webp"
+      },
+      {
+        "id": "kungfu:knee-strike:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/knee-strike-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:elbow-strike",
+    "name": "肘击",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "elbow-strike",
+      "KF024"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:elbow-strike:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/elbow-strike-front.webp"
+      },
+      {
+        "id": "kungfu:elbow-strike:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/elbow-strike-side.webp"
+      },
+      {
+        "id": "kungfu:elbow-strike:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/elbow-strike-diag.webp"
+      },
+      {
+        "id": "kungfu:elbow-strike:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/elbow-strike-high.webp"
+      },
+      {
+        "id": "kungfu:elbow-strike:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/elbow-strike-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:spear-hand-strike",
+    "name": "贯手击",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "spear-hand-strike",
+      "KF025"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:spear-hand-strike:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/spear-hand-strike-front.webp"
+      },
+      {
+        "id": "kungfu:spear-hand-strike:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/spear-hand-strike-side.webp"
+      },
+      {
+        "id": "kungfu:spear-hand-strike:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/spear-hand-strike-diag.webp"
+      },
+      {
+        "id": "kungfu:spear-hand-strike:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/spear-hand-strike-high.webp"
+      },
+      {
+        "id": "kungfu:spear-hand-strike:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/spear-hand-strike-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:wide-stance",
+    "name": "宽马步",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "wide-stance",
+      "KF026"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:wide-stance:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/wide-stance-front.webp"
+      },
+      {
+        "id": "kungfu:wide-stance:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/wide-stance-side.webp"
+      },
+      {
+        "id": "kungfu:wide-stance:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/wide-stance-diag.webp"
+      },
+      {
+        "id": "kungfu:wide-stance:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/wide-stance-high.webp"
+      },
+      {
+        "id": "kungfu:wide-stance:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/wide-stance-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:rear-stance",
+    "name": "后坐步",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "rear-stance",
+      "KF027"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:rear-stance:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/rear-stance-front.webp"
+      },
+      {
+        "id": "kungfu:rear-stance:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/rear-stance-side.webp"
+      },
+      {
+        "id": "kungfu:rear-stance:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/rear-stance-diag.webp"
+      },
+      {
+        "id": "kungfu:rear-stance:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/rear-stance-high.webp"
+      },
+      {
+        "id": "kungfu:rear-stance:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/rear-stance-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:forward-stance",
+    "name": "前位站姿",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "forward-stance",
+      "KF028"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:forward-stance:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/forward-stance-front.webp"
+      },
+      {
+        "id": "kungfu:forward-stance:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/forward-stance-side.webp"
+      },
+      {
+        "id": "kungfu:forward-stance:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/forward-stance-diag.webp"
+      },
+      {
+        "id": "kungfu:forward-stance:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/forward-stance-high.webp"
+      },
+      {
+        "id": "kungfu:forward-stance:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/forward-stance-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:pivot-guard",
+    "name": "转身护架",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "pivot-guard",
+      "KF029"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:pivot-guard:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/pivot-guard-front.webp"
+      },
+      {
+        "id": "kungfu:pivot-guard:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/pivot-guard-side.webp"
+      },
+      {
+        "id": "kungfu:pivot-guard:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/pivot-guard-diag.webp"
+      },
+      {
+        "id": "kungfu:pivot-guard:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/pivot-guard-high.webp"
+      },
+      {
+        "id": "kungfu:pivot-guard:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/pivot-guard-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:defensive-cross-guard",
+    "name": "交臂防守姿态",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "defensive-cross-guard",
+      "KF030"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:defensive-cross-guard:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/defensive-cross-guard-front.webp"
+      },
+      {
+        "id": "kungfu:defensive-cross-guard:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/defensive-cross-guard-side.webp"
+      },
+      {
+        "id": "kungfu:defensive-cross-guard:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/defensive-cross-guard-diag.webp"
+      },
+      {
+        "id": "kungfu:defensive-cross-guard:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/defensive-cross-guard-high.webp"
+      },
+      {
+        "id": "kungfu:defensive-cross-guard:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/defensive-cross-guard-low.webp"
+      }
+    ]
+  },
+  {
+    "id": "kungfu:bow",
+    "name": "鞠躬",
+    "kind": "pose",
+    "category": "kungfu",
+    "domains": [
+      "sports"
+    ],
+    "tags": [
+      "功夫",
+      "跆拳道",
+      "bow",
+      "KF031"
+    ],
+    "people": 1,
+    "framing": "full_body",
+    "content_rating": "general",
+    "source_id": "user-taekwondo",
+    "description": "AI 生成的静态姿势参考；视角及姿势细节为近似表现，不作为动作教学标准。",
+    "views": [
+      {
+        "id": "kungfu:bow:front",
+        "angle": "front",
+        "angle_label": "正面",
+        "image": "img/bow-front.webp"
+      },
+      {
+        "id": "kungfu:bow:side",
+        "angle": "side",
+        "angle_label": "侧面",
+        "image": "img/bow-side.webp"
+      },
+      {
+        "id": "kungfu:bow:diag",
+        "angle": "diagonal",
+        "angle_label": "斜侧",
+        "image": "img/bow-diag.webp"
+      },
+      {
+        "id": "kungfu:bow:high",
+        "angle": "high",
+        "angle_label": "俯视",
+        "image": "img/bow-high.webp"
+      },
+      {
+        "id": "kungfu:bow:low",
+        "angle": "low",
+        "angle_label": "仰视",
+        "image": "img/bow-low.webp"
+      }
+    ]
+  }
+]
