@@ -8,7 +8,7 @@
 
 | 人物参考 | 动作参考 | 生成结果 |
 | --- | --- | --- |
-| ![人物参考照](examples/fashion-portrait.webp) | ![九个动作参考](examples/pose-reference-grid.webp) | ![九宫格生成结果](examples/pose-transfer-demo.webp) |
+| ![人物参考照](examples/fashion-portrait.webp) | ![九个动作参考](examples/pose-reference-grid-latest.webp) | ![九宫格生成结果](examples/pose-transfer-demo-latest.webp) |
 
 示例人物及结果由 AI 生成。生成工具对人物和动作的还原程度可能不同。
 
