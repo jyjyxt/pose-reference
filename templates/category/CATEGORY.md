@@ -21,7 +21,7 @@
   "content_rating": "unknown",
   "source_id": "source-001",
   "views": [
-    {"id": "mycategory:pose-001:front", "angle": "front", "image": "assets/img/pose-001-front.webp"}
+    {"id": "mycategory:pose-001:front", "angle": "front", "image": "img/pose-001-front.webp"}
   ]
 }
 ```
@@ -33,12 +33,12 @@
   {
     "id": "preparation",
     "name": "准备",
-    "views": [{"id": "mycategory:move-001:preparation:side", "angle": "side", "image": "assets/img/move-001-preparation.webp"}]
+    "views": [{"id": "mycategory:move-001:preparation:side", "angle": "side", "image": "img/move-001-preparation.webp"}]
   },
   {
     "id": "finish",
     "name": "收尾",
-    "views": [{"id": "mycategory:move-001:finish:side", "angle": "side", "image": "assets/img/move-001-finish.webp"}]
+    "views": [{"id": "mycategory:move-001:finish:side", "angle": "side", "image": "img/move-001-finish.webp"}]
   }
 ]
 ```
@@ -49,4 +49,4 @@
 {"source-001": {"description": "作者及来源说明", "url": "https://example.org/source"}}
 ```
 
-按仓库 README 运行校验、建立索引并检查图片；`unknown` 在审核并明确分类前不会出现在搜索结果中。更多字段和标注约定见 `shared/schema/pose.schema.json` 和 `shared/taxonomy.md`。
+按仓库 README 运行校验、建立索引并检查图片；`unknown` 在审核并明确分类前不会出现在搜索结果中。更多字段和标注约定见 `shared/pose.schema.json` 和 `shared/taxonomy.md`。

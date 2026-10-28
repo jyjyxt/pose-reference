@@ -42,7 +42,7 @@ python3 shared/scripts/validate.py --check-index
 ## 扩展数据
 
 1. 复制 `templates/category/` 到 `categories/<类别名>/`，补充 `CATEGORY.md`、`source.md` 和 `sources.json`。每项来源记录需有 `description` 和 `url`；动作或视角通过 `source_id` 关联，可由视角覆盖动作来源。
-2. 将图片放到类别的 `assets/`，按 [taxonomy.md](shared/taxonomy.md) 和 [pose.schema.json](shared/schema/pose.schema.json) 编写 `poses.json`。静态姿势使用 `views`，动态动作使用按顺序排列的 `phases`，阶段下的视角提供具体图像。
+2. 将图片放到类别的 `img/`，按 [taxonomy.md](shared/taxonomy.md) 和 [pose.schema.json](shared/pose.schema.json) 编写 `poses.json`。静态姿势使用 `views`，动态动作使用按顺序排列的 `phases`，阶段下的视角提供具体图像。
 3. 新图先压缩并检查可读性：`python3 shared/scripts/compress_images.py <图片路径> --output-dir <目标目录>`。脚本输出 WebP、不缩放、不覆盖，并验证尺寸及可解码性；人工检查文字、细节是否仍清晰。
 4. 执行 `python3 shared/scripts/validate.py`，再执行 `python3 shared/scripts/build_index.py`。提交前运行 `python3 shared/scripts/validate.py --check-index`；索引是生成产物，不手改。搜索和选择会拒绝过期索引。
 5. 检查对应检索、视角和参考拼图。未经验证或没有适用授权的素材与教学数据不应入库。

@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCHEMA = ROOT / 'shared/schema/pose.schema.json'
+SCHEMA = ROOT / 'shared/pose.schema.json'
 CATEGORIES = ROOT / 'categories'
 INDEX = ROOT / 'shared/index.json'
 
